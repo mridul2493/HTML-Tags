@@ -1,0 +1,38 @@
+#Static{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: static;
+    /* top: 10px;
+    left: 10px; */
+}
+/* we cant set the top and left positions in static positioning */
+#relative{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+}
+body{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#absolute{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+#fixed{
+    top: 0px;
+    left: 0px;
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+}
+/*The position is fixed of the element even if we scroll up or down the screen*/
