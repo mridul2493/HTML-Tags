@@ -1,0 +1,15 @@
+.class1 p{
+    color: blue;
+}
+#id1,p{
+    color: red;
+}
+.class2,li{
+    color: green;
+}
+.class3,li{
+    color: blue;
+}
+.class3>p{
+    color: Red;
+}
