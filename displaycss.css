@@ -1,0 +1,28 @@
+span{
+    color: blue;
+}
+h2{
+    display: inline;
+    /* height: 200px;
+    width: 200px; 
+    cant set height and width*/
+}
+div{
+    display: block;
+    height: 300px;
+    width: 400px;       /*even if we set the width of block to less 
+    than window's width still the next element comes below it not in a single line.*/
+    background-color: aqua;
+}
+.ib{
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+.ib2{
+    background-color: yellow;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+}
