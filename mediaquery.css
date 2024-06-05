@@ -1,0 +1,71 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: chartreuse;
+}
+div>p{
+    color: red;
+    font-size: 20px;
+}
+h1{
+    color: green;
+}
+@media(max-width: 600px){
+    div{
+        background-color: blue;
+    }
+    div>p{
+        color: black;
+        font-size: 10px;
+    }
+    h1{
+        color: brown;
+    }
+}
+@media(max-height: 500px){
+    div{
+        background-color: blueviolet;
+    }
+    div>p{
+        color: crimson;
+        font-size: 22px;
+    }
+    h1{
+        color: aquamarine;
+    }
+}
+/* by writing "max-width: 600px" it means that only width of window screen is taken into account not 
+the height, so even if height is less than 600px but width is more than 600px than also the website 
+wont respond to the change. But if width is less than 600 px, it will respond. max-width means only 
+applicable to width not height. */
+/* min-width/min-height */
+@media(min-width: 700px){
+    div{
+        background-color: cyan;
+    }
+    div>p{
+        color: chartreuse;
+        font-size: 30px;
+    }
+    h1{
+        color: red;
+    }
+}
+@media(min-height: 700px){
+    div{
+        background-color: crimson;
+    }
+    div>p{
+        color: black;
+        font-size: 10px;
+    }
+    h1{
+        color: blueviolet;
+    }
+}
+/* combining  */
+@media(min-width: 600px) and (max-width: 900px){
+    div{
+        background-color: brown;        /*styles for screen between 600px and 900px*/
+    }
+} 
