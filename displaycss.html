@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Properties</title>
+    <link rel="stylesheet" href="displaycss.css">
+</head>
+<body>
+    <!-- span element is used to style a word or phrase differently as and when required. -->
+    <!-- span's display property is by-default set to inline -->
+    <p>Hello <span>beautiful</span> world</p>
+    <h2>This is</h2>
+    <h2>Heading 2 (H2)</h2>
+    <!-- block property takes up the full width of window and if there is any 
+    other element after that block one, then it is automatically going to take the 
+    second line. Dosent matters the length of element or content in block, it is going 
+    to take the full width of the window.
+    inline is just the opposite of block, no matter what the size of content of inline element is 
+    it will only take that much space as it is required by the content the next element and so on 
+    will take the same line (inline) as long as the width of the window allows so -->
+    <!-- we cant set the height and width in inline because it will automatically take the width required 
+    to fit in the content. But in block property it is allowed. -->
+    <!-- inline-block have the property of seting height and width and due to inline also it 
+    can come in same line. Best of both. -->
+    <div>
+        <p>
+            This is block.
+        </p>
+    </div>
+    <div class="ib">
+        <p>
+            This is Inline-Block 1.
+        </p>
+    </div>
+    <div class="ib2">
+        <p>
+            This is Inline-Block 2.
+        </p>
+    </div>
+</body>
+</html>
