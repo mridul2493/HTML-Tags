@@ -1,0 +1,54 @@
+.box{
+    background-color: aquamarine;
+    color: blue;
+    /* border: 2px solid red; */
+    margin: auto;
+    height: 200vh;
+    width: 80vw;
+    /* box-sizing: border-box; */
+}
+/* margin :auto; means that the element is in the center */
+/* 100vh and 100vw means that measurements of that property element are 100% of viewport height and width */
+.container{
+    background-color: chartreuse;
+    color: blueviolet;
+    margin: auto;
+    height: 50vh;
+    width: 50vw;
+}
+#em1{
+    background-color: yellow;
+    height: 70vh;
+    width: 50vw;
+    margin: auto;
+}
+#em1 p{
+    color: red;
+    font-size: 2em;
+}
+/* by default font size is 16px */
+/* 'em' font property sets the element's font property with respect to the immediate parent
+for example 2em will set the element's font size to 2 times the font of its immediate parent, so
+whatever be the font size of the parent element, 2em will set it to 2 times the parent element's font */
+/* root element is the parent of all elements. Basically the uppermost parent of every other element. */
+/* rem = root element */
+html{
+    font-size: 12px;
+}
+#rem1{
+    background-color: greenyellow;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+}
+#rem1 p{
+    color: black;
+    font-size: 3rem;
+    line-height: 3lh;
+}
+/* lh stands for line height */
+/* rlh stands for line height wrt root element */
+/* deg	Degrees	There are 360 degrees in a full circle.
+grad	Gradians	There are 400 gradians in a full circle.
+rad	Radians	There are 2π radians in a full circle.
+turn	Turns	There is 1 turn in a full circle. */
