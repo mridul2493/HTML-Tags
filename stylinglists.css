@@ -1,0 +1,14 @@
+nav ul li{
+    list-style: devanagari;
+    background-color: yellow;
+    list-style-position: inside;
+    /* list-style-position is used for getting marker inside list item , bydefault the markers are not inside list item     */
+    border: 2px solid black;
+    height: 10vh;
+    width: 60vw;
+    margin: auto;
+    list-style-image: url();    /*for setting image as marker*/
+    list-style-type: "";        /*for setting emoji as marker*/
+    /* list-style: ; for disc square markers etc */
+}
+/* using image as marker */
